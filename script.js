@@ -2,20 +2,21 @@ $(document).ready(acceptKeyToMove);
 
 function gameOver() {
   return $('tr.strip td:last-child').hasClass('active');
-};
+}
 
 function buildTrack(size) {
   for(var i = 0; i < size; i++) {
     $('tr.strip').append('<td></td>');
   }
-};
+}
 
 function acceptKeyToMove() {
-  buildTrack(36);
+  buildTrack(70);
   $(document).keyup(function(event) {
     if (gameOver()) {
       $(document).unbind('keyup');
-      alert("GAME OVER!");
+      var playAgain = confirm("GAME OVER! PLAY AGAIN?");
+      if (playAgain) { location.reload(); }
     }
     else {
       event.preventDefault();
@@ -38,5 +39,5 @@ function acceptKeyToMove() {
       }
     }
   });
-};
+}
 
