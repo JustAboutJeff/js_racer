@@ -8,38 +8,38 @@ div.container {
 
 table.racer_table {
   position: absolute;
-  top: 64%;
+  top: 63%;
 
 }
 
 table.racer_table td {
   height: 50px;
   width: 50px;
-  background: white;
+  background: none;
 }
 
 
 #player1_strip td.active {
   background: url(img/bike_red.png) no-repeat;
   /*z-index: 1;*/
-  padding: 4px 0;
+  padding: 5px 0;
 }
 
 #player2_strip td.active {
   background: url(img/bike_blue.png) no-repeat;
   /*z-index: 2;*/
-  padding: 4px 0;
+  padding: 5px 0;
 }
 
 #player3_strip td.active {
   background: url(img/bike_green.png) no-repeat;
   /*z-index: 3;*/
-  padding: 4px 0;
+  padding: 5px 0;
 }
 
 #player4_strip td.active {
-  background: url(img/bike_pink.png) no-repeat;
+  background: url(img/bike_yellow.png) no-repeat;
   /*z-index: 4;*/
-  padding: 4px 0;
+  padding: 5px 0;
 }
 
