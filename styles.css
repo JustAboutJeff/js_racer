@@ -1,0 +1,45 @@
+body {
+  background: url(img/excitebike.jpg);
+}
+
+div.container {
+  position: relative;
+}
+
+table.racer_table {
+  position: absolute;
+  top: 64%;
+
+}
+
+table.racer_table td {
+  height: 50px;
+  width: 50px;
+  background: white;
+}
+
+
+#player1_strip td.active {
+  background: url(img/bike_red.png) no-repeat;
+  /*z-index: 1;*/
+  padding: 4px 0;
+}
+
+#player2_strip td.active {
+  background: url(img/bike_blue.png) no-repeat;
+  /*z-index: 2;*/
+  padding: 4px 0;
+}
+
+#player3_strip td.active {
+  background: url(img/bike_green.png) no-repeat;
+  /*z-index: 3;*/
+  padding: 4px 0;
+}
+
+#player4_strip td.active {
+  background: url(img/bike_pink.png) no-repeat;
+  /*z-index: 4;*/
+  padding: 4px 0;
+}
+
