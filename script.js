@@ -11,7 +11,7 @@ function buildTrack(size) {
 }
 
 function acceptKeyToMove() {
-  buildTrack(70);
+  buildTrack(35);
   $(document).keyup(function(event) {
     if (gameOver()) {
       $(document).unbind('keyup');
